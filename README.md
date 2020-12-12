@@ -10,6 +10,11 @@ Rep fro the NLA project, 2nd Term, Skoltech.
 2. Found the working Q-learning based solution (NN is adequate, there is space for compressing, Dense layer of size 512)
 
 
+# Link to the working prototype to be reimplemented
+
+https://keras.io/examples/rl/deep_q_network_breakout/
+
+
 # Split To-Do
 
 1. Think over which hyperparameters we have to optimize (using the original, unchanged code, think of the intuition)
