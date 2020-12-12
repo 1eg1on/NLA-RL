@@ -17,13 +17,13 @@ https://keras.io/examples/rl/deep_q_network_breakout/
 
 # Split To-Do
 
-1. Think over which hyperparameters we have to optimize (using the original, unchanged code, think of the intuition)
+1 (Anastasia). Think over which hyperparameters we have to optimize (using the original, unchanged code, think of the intuition)
 
-2. Re-implement the working code in PyTorch, same functionalities and buffers
+2 (Naz & Max). Re-implement the working code in PyTorch, same functionalities and buffers
 
-3. Introduce the compression of the nn.Linear(512) Layer, think over possible activation and it's impact
+3 (Anybody after reimpl.). Introduce the compression of the nn.Linear(512) Layer, think over possible activation and it's impact
 
-4. Implement the diagnostic function, keeping (most important above all the info about the action std's, we need to see how they are impacted by the compression)
+4 (Anybody after reimpl.). Implement the diagnostic function, keeping (most important above all the info about the action std's, we need to see how they are impacted by the compression)
 
 Actually, we may just use the buffers, which were collected during the training process.
 
